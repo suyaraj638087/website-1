@@ -1,0 +1,255 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+
+}
+.first .container{
+	width:80%;
+	margin:0 auto;
+	
+}
+.first .col{
+	background-color:black;
+	
+}
+.muthal a{
+	text-decoration:none;
+	color:white;
+}
+.navigation .active{
+	color:#ff5821;
+}
+.muthal a:hover{
+	color:#ff5821;
+}
+
+.muthal i{
+color:orange;
+padding-left:60px;	
+}
+.muthal{
+	display:flex;
+	align-items:center;
+	background-color:#0f0d0dfc;
+	
+}
+.muthal .btn{
+padding-left:700px;
+}
+.btn button{
+	color:#ff582;
+	background-color:#ff5821;
+	width:130px;
+	height:40px;
+	
+}
+.nav{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	padding:2rem;
+	background-color:white;
+
+}
+
+.nav a{
+	text-decoration:none;
+	padding:20px;
+	color:#635551;
+		
+}
+
+.navigation a:hover{
+	color:orange;
+}
+.back .container{
+	width:80%;
+	margin:0 auto;
+}
+.back .hpib h1{
+	color:white;
+	font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+	padding-top:80px;
+}
+.back .hpib p{
+	color:#eee;
+	padding-top:10px;
+	font-size: 24px;
+}
+.back .start button{
+	position:relative;
+	margin-top:50px;
+	height:40px;
+	width:200px;
+	color:white;
+	background-color:#584b48;
+	border-radius:50px;
+		transition: 1s;
+}
+.back .start button:hover{
+	background-color:#ff5821;
+	border:1px solid #ff5821;
+}
+.back{
+	position:relative;
+	background-image:linear-gradient(#ff00001a,#ff000012),url("C:/fabevy/practice/flex/Flexor/assets/img/hero-bg.jpg");
+	height:80vh;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	z-index:0;
+}
+.back .right i{
+	position:absolute;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	top:220px;
+	left:130px;
+	z-index:2;
+	color:white;
+	height:50px;
+	width:50px;
+	
+	background-color:#ff5821;
+	border-radius:50%;
+}
+.three .container{
+	width:80%;
+	margin:0 auto;
+}
+.three .row{
+	display:flex;
+	
+}
+.three .col{
+	position:relative;
+	bottom:100px;
+		z-index:2;
+		width:25%;
+	text-align:center;
+	padding:20px;
+}
+.three .big{
+	background-color:#ff5821;
+}
+.three .big h2{
+padding-top:10px;
+color:white;
+}
+.three .big p{
+padding:10px;
+color:white;
+}
+.three .space{
+	position:relative;
+	box-shadow:0 0 5px grey;
+	background-color:white;
+}
+
+.three i{
+	position:absolute;
+	top:15px;
+	left:80px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:#ff5821;
+	font-size:35px;
+	padding:30px;
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	background-color:white;
+}
+.three .space h3{
+	padding-top:80px;
+	
+}
+.three .space p{
+	padding-top:5px;
+}
+.three button{
+
+    background-color:#ff5821;
+    height:30px;
+	width:100px;
+    color: #fff;
+    border-radius: 50px;
+	transition: 1s;
+}
+.three button:hover{
+	background-color:white;
+	color:#ff5821;
+}
+.four .container{
+	position:relative;
+	width:80%;
+	margin:0 auto;
+}
+.four .row{
+	display:flex;
+}
+.four .col{
+	width:50%;
+	padding:30px;
+}
+.four .fourimg img{
+	
+	width:100%;
+}
+.four .head {
+	color:#554945;
+}
+.four .about{
+	position:relative;
+	color:#554945;
+	padding:30px;
+}
+.four .play i{
+	position:absolute;
+	display:flex;
+	bottom:300px;
+	left:240px;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	background-color:#ff5821;
+	font-size:50px;
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	
+}
+.four .head h5{
+	padding-top:10px;
+}
+.four .about p{
+	padding-top:10px;
+}
+.four .about i{
+	position:absolute;
+	right:460px;
+	
+	display:flex;
+	font-size:20px;
+	align-items:center;
+	justify-content:center;
+	height:50px;
+	width:50px;
+	color:#ff5821;
+	background-color:white;
+	border:1px solid #ffcbba;
+	border-radius:50%;
+	transition:1s;
+	
+}
+.four .about i:hover{
+	color:white;
+	background-color:#ff5821;
+}
